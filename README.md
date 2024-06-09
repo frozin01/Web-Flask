@@ -1,6 +1,6 @@
-# web-flask
+# Web-Flask
 
-A simple web application built with Flask.
+Web application built with Flask.
 
 ## Table of Contents
 
