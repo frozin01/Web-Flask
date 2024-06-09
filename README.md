@@ -7,8 +7,6 @@ Web application built with Flask.
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 
