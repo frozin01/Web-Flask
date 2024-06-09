@@ -53,23 +53,29 @@ Web application built with Flask.
 ## Contributing
 
 1. **Fork the repository.**
+
 2. **Create a new branch:**
     ```sh
     git checkout -b feature/your-feature-name
     ```
+
 3. **Make your changes.**
+
 4. **Stage your changes:**
     ```sh
     git add .
     ```
+
 5. **Commit your changes:**
     ```sh
     git commit -m 'Add some feature'
     ```
+
 6. **Push to the branch:**
     ```sh
     git push origin feature/your-feature-name
     ```
+    
 7. **Submit a pull request.**
 
 ## License
