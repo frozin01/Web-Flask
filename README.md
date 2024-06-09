@@ -6,7 +6,7 @@ Web application built with Flask.
 
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Running the Application](#running-the-application)
+- [Execution](#execution)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -14,8 +14,8 @@ Web application built with Flask.
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/web-flask.git
-    cd web-flask
+    git clone https://github.com/frozin01/Web-Flask.git
+    cd Web-Flask
     ```
 
 2. **Create a virtual environment:**
@@ -26,7 +26,7 @@ Web application built with Flask.
 3. **Activate the virtual environment:**
     - On Windows:
         ```sh
-        venv\Scripts\activate
+        venv\scripts\activate
         ```
     - On macOS/Linux:
         ```sh
@@ -40,4 +40,38 @@ Web application built with Flask.
 
 ## Configuration
 
-This project uses environment variables to manage configuration. Create a `.env` file in the root directory with the following content:
+## Execution
+
+1. **Ensure the virtual environment is activated.**
+
+2. **Run the application:**
+    ```sh
+    python app.py
+    ```
+   The application will be accessible at `http://127.0.0.1:5000`.
+
+## Contributing
+
+1. **Fork the repository.**
+2. **Create a new branch:**
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes.**
+4. **Stage your changes:**
+    ```sh
+    git add .
+    ```
+5. **Commit your changes:**
+    ```sh
+    git commit -m 'Add some feature'
+    ```
+6. **Push to the branch:**
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+7. **Submit a pull request.**
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
