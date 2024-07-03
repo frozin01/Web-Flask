@@ -1,14 +1,14 @@
-from flask import Flask
-from dotenv import load_dotenv
+# Dependecies
 import os
+from web_flask import create_app
+from dotenv import load_dotenv
 
+
+# Define app
 load_dotenv()
+app = create_app()
 
-app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return 'Hello, Flask!'
-
+# Run app
 if __name__ == '__main__':
     app.run(host=os.getenv('FLASK_HOST'), port=os.getenv('FLASK_PORT'), debug=os.getenv('DEBUG'))

@@ -47,6 +47,15 @@ Web application built with Flask.
     FLASK_HOST=0.0.0.0
     ```
 
+2. **Setup database:**
+    ```sh
+    DB_HOST=127.0.0.1
+    DB_NAME=web-flask
+    DB_USER=postgres
+    DB_PASS=postgres
+    DB_PORT=5432
+    ```
+
 ## Execution
 
 1. **Ensure the virtual environment is activated.**

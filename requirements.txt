@@ -1,5 +1,8 @@
 # Flask
 flask==3.0.3
 
+# Databases
+psycopg2==2.9.9
+
 # Environments
 python-dotenv==1.0.0
