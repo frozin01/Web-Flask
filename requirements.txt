@@ -1,2 +1,5 @@
 # Flask
 flask==3.0.3
+
+# Environments
+python-dotenv==1.0.0

@@ -40,6 +40,13 @@ Web application built with Flask.
 
 ## Configuration
 
+1. **Setup Flask:**
+    ```sh
+    DEBUG=TRUE
+    FLASK_PORT=5000
+    FLASK_HOST=0.0.0.0
+    ```
+
 ## Execution
 
 1. **Ensure the virtual environment is activated.**
